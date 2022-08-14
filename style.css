@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;    
+}
+a:link{
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+.all{
+    display: flex;
+    margin-left: 197px;
+}
+
+.applies-to-all{
+    width: 245px;
+    height: 305px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    padding: 20px;    
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;    
+    position: relative;
+}
+
+.on-top-of-the-first img{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 30px;
+
+
+}
+.lower-of-the-first{
+    position: absolute;
+    bottom: 0;
+    margin: 5px;
+}
+.lower-of-the-first svg{
+    width: 18px;    
+    position: absolute;
+    margin-top: -45px;
+    left: 0;
+}
+.lower-of-the-first h5{
+    position: absolute;
+    margin-top: -45px;
+    left: 20px;
+}
+.lower-of-the-first h4{
+    margin-bottom: 70px;
+}
+.credit{
+    background-color: #F2F2F2;
+    height: 40px;
+    width: 55px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 170px;
+    margin-bottom: 15px;
+    
+}
+.credit h5{
+    position: absolute;
+    margin-top: 5px;
+    left: 15px;
+}
+
+.credit h6{
+    position: absolute;
+    margin-top: 20px;
+    left: 20px;
+}
+.credit svg{
+    position: absolute;
+    margin-top: 22px;
+    left: 5px;
+    display: block;
+    width: 12px;    
+}
